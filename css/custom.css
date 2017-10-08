@@ -1,0 +1,76 @@
+html, body {
+  height: 100% !important;
+}
+.ordenapor{
+  cursor:pointer;
+}
+#linkcsv{
+  display: none;
+}
+.modal{
+  display: none;
+  position:fixed;
+  left:0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  z-index: 9999;
+  resize:horizontal;
+  box-shadow: 3px 3px 5px #333;
+  max-width: 50%;
+  min-width: 350px;
+  width: auto;
+  min-height: 150px;
+  height: auto;
+  overflow: auto;
+  text-align: left !important;
+}
+#mensajealerta{
+  max-width: 400px;
+  min-width: 350px;
+  width: auto;
+  height: 50px;
+  position:fixed;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 1.2em;
+  display:none;
+  z-index: 99999;
+  line-height: 50px !important;
+  vertical-align: middle !important;
+}
+.btnaccion{
+  cursor:pointer;
+}
+.btnCerrar{
+  float:right;
+  margin-top: -15px !important;
+}
+.asterisco-obligatorio{
+  color:#F00;
+  font-weight: bolder;
+  padding:3px;
+  margin:4px;
+}
+#footer{
+  margin-top: 10px;
+  position: relative;
+  padding: 20px;
+  font-size: 12.2px;
+  font-weight: lighter;
+  color:#acb1ad;
+  background-color: #262b2d;
+  border-top: 1px solid #cbd0cb;
+}
+#tablatitulo{
+  text-transform:capitalize;
+}
